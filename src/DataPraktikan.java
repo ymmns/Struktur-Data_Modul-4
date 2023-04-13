@@ -31,7 +31,7 @@ public class DataPraktikan {
     public static void listNamaAsisten(){
         for (String Aslab : tabelData.keySet()) {
             String Aslab1 = tabelData.get(Aslab);
-            System.out.println("List NIM: " + Aslab1);
+            System.out.println("List Nama Asisten: " + Aslab1);
         }
     }
 
